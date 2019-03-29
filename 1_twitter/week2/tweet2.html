@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Layout</title>
+	<style type="text/css">
+		body {
+			font-size:60px;
+			color:white;
+		}
+		.block{
+			display:block;
+		}
+		.inline-block{
+			display:inline-block;
+			
+		}
+
+		.ff-v {
+			font-family: Verdana,Geneva,sans-serif;
+		}
+
+		.ff-a {
+			font-family: arial;
+		}
+		.width-1{
+			width:300px;
+			height:300px;
+			background-color:black;
+		}
+		.fixed {
+			position: absolute;
+			top:30px;
+			left:10px;
+			background: black;
+			color:white;
+			font-size:60px;
+			margin-left:500px;
+		}
+		.absolute {
+			position: absolute;
+			top:300px;
+			right:10px;
+			color:black;
+			font-size:70px;
+		}
+		.drip {
+			margin-bottom:500px;
+			font-family: Verdana,Geneva,sans-serif;
+			background-color:black; 
+		}
+	</style>
+</head>
+<body>
+	<div class="drip">
+I got that new drip 
+	</div>
+	<div class="fixed ff-a">
+		5:06pm
+	</div>
+
+	<div class="absolute">
+		20 March
+	</div>
+
+	<div class="inline-block width-1 ff-a">
+		I got that new drip 
+	</div>
+
+	<div class="inline-block width-1 ff-v">
+		I got that new drip 
+	</div>
+
+
+</body>
+</html>
