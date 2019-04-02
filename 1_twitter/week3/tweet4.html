@@ -3,69 +3,40 @@
 <head>
 	<title>CSS</title>
 	<style type="text/css">
-		/* [horizontal offset]
-   [vertical offset]
-   [blur radius]
-   [optional spread radius]
-   [color]
-*/
+body {
+  background:blue;
+}
 
 .box {
-  width: 300px;
-  height:100px;
-  box-shadow:0px 0px 60px 20px red;
-  margin-bottom: 100px;
+  position:inline-block;
+  width: 1000px;
+  height:200px;
+  box-shadow:20px 20px 60px 20px red;
+  margin-bottom: 20px;
   margin-left: 100px;
-  font-style:bold;
   font-family:impact;
-  font-size:100px;
-  font-color:blue;
+  font-size:200px;
+  text-align:center;
   background: linear-gradient(to right,
   orange, red, blue); 
-  color:gray;    
-}
-
-.box1 {
-  width: 200px;
-  height:100px;
-  box-shadow:0px 0px 60px 20px orange;
-  margin-bottom: 100px;
-  margin-left: 100px;
-  font-style:bold;
-  font-family:impact;
-  font-size:100px;
-  background: linear-gradient(to right,
-  orange, red, blue);
-  color:gray;     
-}
-
-.box2 {
-  width: 200px;
-  height:100px;
-  box-shadow:0px 0px 60px 20px yellow;
-  margin-bottom: 100px;
-  margin-left: 100px;
-  font-style:bold;
-  font-family:impact;
-  font-size:100px;
-  background: linear-gradient(to right,
-  orange, red, blue);  
-  color:gray;  
+  color:white;  
 }
 
 .text {
 	font-family:arial;
-	font-size:10px;
+	font-size:100px;
 	font-style:italic;
 	color:red;
+  position:fixed;
+  text-align:center;
+  left:100px;
+  top:250px;
 }
 
 ;
 	</style>
 </head>
 <body>
-<div class="box">SODMG</div>
-<div class="box1">4</div>
-<div class="box2">E</div>
-<div class="text">2:21PM - 28 Mar 2019</div>
+<div class="box">SODMG 4 E</div>
+<div class="text">2:21PM 28 Mar 2019</div>
 

@@ -5,111 +5,64 @@
 	<style type="text/css">
 		body {
   font-family:arial;
+  color:blue;
+  background-color:blue;
 }
 
-/* Hex colour */
 .text {
   font-size:80px;
   color:white;
-  width:;
-  height:;
-  padding;
-  display: inline-block;
+  position:absolute;
   animation-name:colourUG;
   animation-duration:1000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-direction: alternate;
+
 }
 
 .c1 {
-  color:red;
-}
-.c2 {
-  color:green;
-}
-.c3 {
-  color:yellow;
-}
-.c4 {
   color:blue;
-}
-.c5 {
-  color:pink;
-}
-.c6 {
-  color:brown;
-}
-.c7 {
-  color:gray;
+  font-style:italic;
 }
 
-.boxb {
-  width: 100px;
-  height:100px;
-
-  padding: 20px;
-  display: inline-block;
-  animation-name:colourUG;
-  animation-duration:1000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-direction: alternate;
+element.style {
+}
+.box {
+    font-family: helvetica;
+    color: blue;
+    font-size: 120px;
+    margin: 60px;
+    width: 3000px;
+    height: 400px;
+    padding: 20px;
+    background-color: tomato;
+    animation-name: spinUG;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
 }
 
-@keyframes colourUG {
-  
-  to {
-   background-color: yellow;
-  }
-  
-  from {
-  background-color: purple;
-  }
-  
-  .box {
-  width: 200px;
-  height:200px;
-  background-color: red;
-  /*   add your animation name and settings here */
-  animation-name:spinUG;
-  animation-duration:2000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-direction: alternate;
-}
-
-/*   add your starting state and your end state  */
 @keyframes spinUG {
   
-  from {
-    width:50px;
-  }
-  
   to {
-    width:400px;
+   width:10px;
   }
   
-  
-}
-
+  from {
+  width:1000px;
+  }
 
 	</style>
+
 </head>
 <body>
-
 </body>
-<div class="box"></div>
 
-<div class="text">Drippin & Splashin
-<br>
-   3:54PM March 24 
+<div class="box"><span>Drippin</span><span>N</span><span>Splashin</span><br><span class="c1">3:54PM</span><br><span>March 24</span><span></span>
 </div>
 
-  <span class="c1">D</span><span class="c2">R</span><span class="c3">i</span><span class="c4">p</span><span class="c5">P</span><span class="c6">I</span><span class="c7">n</span>
-</div>
-
-<div class="gradient"></div>
 </html>
 
 
