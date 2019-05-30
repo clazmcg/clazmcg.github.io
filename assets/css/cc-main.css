@@ -1,0 +1,123 @@
+body {
+	font-family: Helvetica,sans-serif;
+	font-size: 32px;
+	background:blue;
+}
+
+a {
+	color:yellow;
+	text-decoration: none;
+}
+
+.hover a {
+	color:yellow;
+}
+
+img {
+	width:100%;
+}
+
+* {
+	outline:solid-red;
+}
+
+.examples .content {
+  padding-top:350px;
+	text-align: left;
+	font-color:red;
+	font-size:50px;
+	position:fixed;
+}
+
+.nav .content {
+  margin-bottom:10px;
+}
+
+.nav .content a {
+  color:yellow;
+}
+
+.overlay {
+	
+}
+
+.overlay img {
+
+}
+
+.twopage .col {
+	height:100vh;
+	overflow:scroll;
+}
+
+.align-bottom {
+	
+}
+
+.justify-right {
+	
+}
+
+.align-center {
+	
+}
+
+.fours {
+	font-size:14px;
+}
+
+.offset-left {
+	margin-left:25%;
+}
+
+.sources a{
+	display: block;
+}
+
+.c1 {
+  color:blue;
+  font-style:italic;
+}
+
+.scroll {
+  height: 100px;  
+  position: relative;
+  transform: rotate(-20deg);
+  background-color:red;
+  position: absolute;
+  width: 1000px;
+  height: 100px;
+  margin-top:70px;
+  margin-left:-50px;
+  line-height: 100px;
+  text-align:right;
+  font-size:100px;
+  color:yellow;
+  font-style:italic;
+  font-weight:bold;
+  overflow:hidden;
+  pointer-events:none;
+}
+
+.scroll marquee {
+   pointer-events:none;
+}
+
+.links {
+    position:fixed;
+    top:200px;
+    right:10px;
+    font-size:30px;
+    text-align:right;
+    margin-top:10px;
+    margin-left:10px; 
+    color:white;
+    font-style:bold;
+    font-family:helvetica;
+  }
+
+  .grid {
+    position:fixed;
+    width:100%;
+    color:yellow;
+  }
