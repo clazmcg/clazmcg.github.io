@@ -21,20 +21,20 @@ img {
 	outline:solid-red;
 }
 
-.examples .content {
-  padding-top:350px;
-	text-align: left;
-	font-color:red;
-	font-size:50px;
-	position:fixed;
-}
-
-.nav .content {
-  margin-bottom:10px;
-}
-
-.nav .content a {
+.content {
+  position:fixed;
+  margin-top:25%;
+  text-align:left;
   color:yellow;
+  font-size:50px;
+}
+
+.content a:hover {
+  color:red;
+}
+
+.content .pages {
+  color:red;
 }
 
 .overlay {
@@ -81,7 +81,6 @@ img {
 
 .scroll {
   height: 100px;  
-  position: relative;
   transform: rotate(-20deg);
   background-color:red;
   position: absolute;
@@ -99,10 +98,6 @@ img {
   pointer-events:none;
 }
 
-.scroll marquee {
-   pointer-events:none;
-}
-
 .links {
     position:fixed;
     top:200px;
@@ -111,7 +106,7 @@ img {
     text-align:right;
     margin-top:10px;
     margin-left:10px; 
-    color:white;
+    color:black;
     font-style:bold;
     font-family:helvetica;
   }
@@ -120,4 +115,18 @@ img {
     position:fixed;
     width:100%;
     color:yellow;
+    overflow:hidden;
+    bottom:0;
+  }
+
+  .grid a {
+    float:left;
+    display:block;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+  }
+
+  .grid a:hover {
+    color:red;
   }
