@@ -21,6 +21,15 @@ img {
 	outline:solid-red;
 }
 
+.buy-content {
+  position:absolute;
+  margin-top:15%;
+  margin-left:10%;
+  text-align:left;
+  color:yellow;
+  font-size:30px;
+}
+
 .content {
   position:fixed;
   margin-top:15%;
