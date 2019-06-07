@@ -28,6 +28,7 @@ img {
   text-align:center;
   color:yellow;
   font-size:50px;
+  font-style:bold;
 }
 
 .content a:hover {
@@ -160,19 +161,26 @@ img {
 
 .links {
     position:fixed;
-    top:200px;
-    right:10px;
+    right:20px;
     font-size:30px;
     text-align:right;
-    margin-top:10px;
+    margin-top:;
     margin-left:10px; 
     color:black;
     font-style:bold;
     font-family:helvetica;
   }
 
+  .links a {
+    color:blue;
+  }
+
+  .links a:hover {
+    color:yellow;
+  }
+
   .grid {
-    position:fixed;
+    position:relative;
     width:100%;
     color:yellow;
     overflow:hidden;
