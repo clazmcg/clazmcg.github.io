@@ -163,10 +163,9 @@ img {
     position:fixed;
     right:20px;
     font-size:30px;
-    text-align:right;
+    text-align:left;
     margin-top:;
-    margin-left:10px; 
-    color:black;
+    margin-left:; 
     font-style:bold;
     font-family:helvetica;
   }
@@ -196,5 +195,5 @@ img {
   }
 
   .grid a:hover {
-    color:red;
+    color:yellow;
   }
