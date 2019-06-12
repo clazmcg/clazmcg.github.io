@@ -15,11 +15,84 @@ a {
 
 img {
 	width:100%;
+  display: block;
 }
 
-* {
-	outline:solid-red;
+.drag-image {
+    width: 300px;
+    cursor: move;
+    box-shadow:10px 10px 10px red;
+    padding: 0px;
+    position: relative;
 }
+
+.image-1 {
+  left: 10%;
+  top: 10%;
+}
+
+.title {
+  font-size: 24vw;
+  text-align: center;
+}
+
+/*.drag-words {
+    width: 300px;
+    cursor: move;
+    color:red;
+    font-size:20px;
+    position:absolute;
+    bottom:10px;
+    left:50px;
+    width:250px;
+    height:250px;
+    background-color:yellow;
+}*/
+
+/*.words {
+    text-align:center;
+    left: 10%;
+    top: 10%;
+    color:red;
+}*/
+
+.popup-link {
+  color:red;
+  cursor: pointer;
+}
+
+.shape {
+  width: 250px;
+  position: fixed;
+  z-index: 3;
+  cursor: pointer;
+  display: none;
+}
+
+.s-6 {
+  top:10%;
+  left:40%;
+  margin:auto;
+  width:40%;
+}
+
+.s-2 {
+  bottom:10%;
+  left:60%; 
+  margin:auto;
+  width:20%;
+}
+
+.s-3 {
+  bottom:10%;
+  left:25%;
+  margin:auto;   
+}
+
+.show {
+  display: block;
+}
+
 
 .buy-content {
   position:absolute;
@@ -48,29 +121,10 @@ img {
   color:red;
 }
 
-.overlay {
-	
-}
-
-.overlay img {
-
-}
 
 .twopage .col {
 	height:100vh;
 	overflow:scroll;
-}
-
-.align-bottom {
-	
-}
-
-.justify-right {
-	
-}
-
-.align-center {
-	
 }
 
 .fours {
