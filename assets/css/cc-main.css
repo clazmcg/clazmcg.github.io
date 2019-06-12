@@ -18,44 +18,6 @@ img {
   display: block;
 }
 
-.drag-image {
-    width: 300px;
-    cursor: move;
-    box-shadow:10px 10px 10px red;
-    padding: 0px;
-    position: relative;
-}
-
-.image-1 {
-  left: 10%;
-  top: 10%;
-}
-
-.title {
-  font-size: 24vw;
-  text-align: center;
-}
-
-/*.drag-words {
-    width: 300px;
-    cursor: move;
-    color:red;
-    font-size:20px;
-    position:absolute;
-    bottom:10px;
-    left:50px;
-    width:250px;
-    height:250px;
-    background-color:yellow;
-}*/
-
-/*.words {
-    text-align:center;
-    left: 10%;
-    top: 10%;
-    color:red;
-}*/
-
 .popup-link {
   color:red;
   cursor: pointer;
@@ -121,27 +83,9 @@ img {
   color:red;
 }
 
-
 .twopage .col {
 	height:100vh;
 	overflow:scroll;
-}
-
-.fours {
-	font-size:14px;
-}
-
-.offset-left {
-	margin-left:25%;
-}
-
-.sources a{
-	display: block;
-}
-
-.c1 {
-  color:blue;
-  font-style:italic;
 }
 
 .scroll1 {
@@ -226,10 +170,8 @@ img {
     position:fixed;
     right:20px;
     font-size:30px;
-    text-align:left;
-    margin-top:;
-    margin-left:; 
-    font-style:bold;
+    text-align:right;
+    font-style:bold-italic;
     font-family:helvetica;
   }
 
