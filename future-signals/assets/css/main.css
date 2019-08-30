@@ -1,0 +1,131 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+	background-image: url("white-noise.png");
+    background-repeat:no-repeat;
+    background-size:cover; 
+}
+
+a {
+	color:red;
+}
+
+.background-image {
+	position:fixed;
+	align-items:center;
+    justify-content:center;
+    min-width:100%;
+    min-height: 100%;
+    width:auto;
+    height:auto;
+    top:0px;
+    left:0px;
+   	z-index: -1;
+}
+
+.nav {
+	width: 100%;
+	background-color: magenta;
+	padding: 10px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	z-index: 10;
+}
+
+.nav-item {
+	background-color: lime;
+	display: inline-block;
+	padding: 5px;
+	border-radius: 5px;
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.title {
+	width: 80%;
+}
+
+.title img {
+	width: 100%;
+	z-index: 11;
+}
+
+.research {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.research-item {
+	flex:0 0 33.333%;
+	padding: 10px;
+	transition: 1s;
+	cursor: zoom-in;
+}
+
+.research-item img {
+	width: 100%;
+}
+
+.research-item span {
+	color: gray;
+	font-size: 18px;
+}
+
+.essay {
+	display: flex;
+	flex-wrap: wrap; 
+	margin-top: 0px;
+	padding-top:80px;
+	padding-left:50px;
+	background-color:lime;
+}
+
+.text {
+	flex:0 0 66.66%;
+	padding: 10px;
+
+}
+
+.text h1 {
+	font-size: 60px;
+}
+
+.text p {
+	margin-bottom: 10px;
+}
+
+.figure {
+	flex:0 0 33.333%;
+	padding: 10px;
+}
+
+.figure span {
+	font-size: 18px;
+	color: gray;
+}
+
+.figure img {
+	width: 100%;
+}
+
+/*interactive classes*/
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+.large {
+	flex:0 0 66.666%;
+	transition: 1s;
+	cursor: zoom-out;
+}
+
+.active {
+	background-color:red;
+}
