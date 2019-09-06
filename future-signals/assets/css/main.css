@@ -25,7 +25,6 @@ a {
 
 .nav {
 	width: 100%;
-	background-color: magenta;
 	padding: 10px;
 	position: fixed;
 	bottom: 0px;
@@ -42,6 +41,45 @@ a {
 	text-decoration: none;
 	cursor: pointer;
 }
+
+
+/*symbol*/
+
+.symbol-nav {
+	width: 100%;
+	padding: 10px;
+	position: fixed;
+	bottom: 0px;
+	z-index: 10;
+	text-align:center;
+	background-color:lime;
+}
+
+.symbol-item {
+	background-color: lime;
+	display: inline-block;
+/*	padding: 5px;
+	border-radius: 5px;*/
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.symbol-item:hover img.outline {
+	display:none;
+}
+
+.symbol-item:hover img.fill {
+	display:block;
+}
+
+img.fill {
+	display: none;
+}
+
+
+
+/*symbol end*/
 
 .title {
 	width: 70%;
@@ -70,7 +108,7 @@ a {
 }
 
 .research-item span {
-	color: magenta;
+	color: white;
 	font-size: 18px
 }
 
@@ -81,20 +119,24 @@ a {
 	padding-top:80px;
 	padding-left:50px;
 	background-color:lime;
+	text-align:right;
 }
 
 .text {
 	flex:0 0 66.66%;
 	padding: 10px;
+	color:white;
 
 }
 
 .text h1 {
 	font-size: 60px;
+	color:magenta;
 }
 
 .text p {
 	margin-bottom: 10px;
+	color:black;
 }
 
 .figure {

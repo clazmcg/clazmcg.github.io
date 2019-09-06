@@ -19,15 +19,26 @@ $ (document).ready(function(){
 		$('.words').removeClass('hide');
 	});
 
-	$('.btn-influencers').click(function(){
+	$('.btn-influencer').click(function(){
 		hideAll();
-		$('.influencers').removeClass('hide');
+		$('.influencer').removeClass('hide');
 	});
 
-	$('.btn-#spon').click(function(){
+	$('.btn-spon').click(function(){
 		hideAll();
-		$('.#spon').removeClass('hide');
+		$('.spon').removeClass('hide');
 	});
+
+	$('.btn-liked').click(function(){
+		hideAll();
+		$('.liked').removeClass('hide');
+	});
+
+	$('.btn-saved').click(function(){
+		hideAll();
+		$('.saved').removeClass('hide');
+	});
+
 
 
 
