@@ -1,7 +1,7 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
-	background-color:black;
+	background-color:blue;
 	color:white;
 }
 
@@ -38,10 +38,42 @@ a {
 	flex:0 0 50%;
 }
 
-/*IP Address*/
+/*NASA*/
 
-.ip {
-	background-color:magenta;
+.captcha {
+  width:100%;
+  height:100vh;
+}
+
+.captcha img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+/*  margin-left:20%;
+  margin-top: 12%;*/
+}
+
+.robot {
+  position: absolute;
+  top:0px;
+  left:0px;
+  display: flex;
+  width:100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.robot-text {
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 10vw;
+  color:yellow;
+  text-align: center;
+  mix-blend-mode:difference;
+}
+
+.co {
+	background-color:red;
 	height: 100vh;
 	width:100vw;
 	display: flex;
@@ -49,31 +81,179 @@ a {
 	justify-content:center;
 }
 
-.ip-text {
-	font-size:15vw;
+.co-text {
+	font-size:10vw;
 	text-align:center;
-	color:black;
+	color:blue;
 }
 
-/*Checkers*/
+/*Alien*/
 .checkers  {
 	display: flex;
 	flex-wrap: wrap;
-
 }
 
-.checkers-lime {
+.checkers-black {
 	width:50vw;
 	height:50vh;
-	background-color:lime;
+	background-color:white;
 }
 
-.checkers-magenta {
+.checkers-white {
 	width:50vw;
 	height:50vh;
-	background-color:magenta;
+	background-color:black;
 }
 
+.checkers img {
+	position:fixed;
+	justify-content:center;
+	align-items:center;
+	width: 100vw;
+	height:100vh;
+	display:flex;
+}
+
+/*Gradient*/
+
+.gradient {
+  width:100vw;
+  height:100vh;
+  background: linear-gradient(red, orange, yellow, lime, blue, purple);
+}
+
+/*Banners*/
+
+.scroll1 {
+  height: 100px;  
+  transform: rotate(-40deg);
+  background-color:lime;
+  color:magenta;
+  position: absolute;
+  width: 2500px;
+  height: 100px;
+  margin-top:100px;
+  margin-left:-200px;
+  line-height: 100px;
+  text-align:right;
+  font-size:100px;
+  color:magenta;
+  font-style:italic;
+  font-weight:bold;
+  overflow:hidden;
+  pointer-events:none;
+  flex:wrap;
+  display:flex;
+}
+
+  .scroll2 {
+  height: 100px;  
+  transform: rotate(20deg);
+  background-color:yellow;
+  position: absolute;
+  width: 2000px;
+  height: 100px;
+  margin-top:70px;
+  margin-right:-50px;
+  line-height: 100px;
+  text-align:left;
+  font-size:100px;
+  color:magenta;
+  font-style:italic;
+  font-weight:bold;
+  overflow:hidden;
+  pointer-events:none;
+  flex:wrap;
+  display:flex;
+}
+
+.scroll3 {
+  height: 100px;  
+  transform: rotate(-20deg);
+  background-color:magenta;
+  position: fixed;
+  width: 2000px;
+  height: 100px;
+  margin-top:38%;
+  margin-bottom:10%;
+  margin-right:-100px;
+  line-height: 100px;
+  text-align:left;
+  font-size:100px;
+  color:lime;
+  font-style:italic;
+  font-weight:bold;
+  overflow:hidden;
+  pointer-events:none;
+  flex:wrap;
+  display:flex;
+}
+
+.scroll4 {
+  height: 100px;  
+  transform: rotate(20deg);
+  background-color:orange;
+  position: fixed;
+  width: 2000px;
+  height: 100px;
+  margin-top:20%;
+  margin-bottom:10%;
+  margin-left:-100px;
+  line-height: 100px;
+  text-align:left;
+  font-size:100px;
+  color:magenta;
+  font-style:italic;
+  font-weight:bold;
+  overflow:hidden;
+  pointer-events:none;
+  flex:wrap;
+  display:flex;
+}
+
+.scroll5 {
+  height: 100px;  
+  transform: rotate(-50deg);
+  background-color:red;
+  position: fixed;
+  width: 3000px;
+  height: 100px;
+  margin-top:5%;
+  margin-bottom:50%;
+  margin-left:-150px;
+  line-height:100px;
+  text-align:left;
+  font-size:100px;
+  color:yellow;
+  font-style:italic;
+  font-weight:bold;
+  overflow:hidden;
+  pointer-events:none;
+  flex:wrap;
+  display:flex;
+}
+
+.scroll6 {
+  height: 100px;  
+  transform: rotate(40deg);
+  background-color:blue;
+  position: fixed;
+  width: 3000px;
+  height: 100px;
+  margin-top:50%;
+  margin-bottom:10%;
+  margin-left:-300px;
+  line-height: 100px;
+  text-align:left;
+  font-size:100px;
+  color:red;
+  font-style:italic;
+  font-weight:bold;
+  overflow:hidden;
+  pointer-events:none;
+  flex:wrap;
+  display:flex;
+  }
 /* Checkers Type */
 
 .checkers-type {
@@ -103,8 +283,8 @@ a {
 }
 
 .cloud-circle {
-	width:25vw;
-	height:25vh;
+	width:50vw;
+	height:50vw;
 	background-image: linear-gradient (blue, white);
 	border-radius:50%;
 }
