@@ -1,0 +1,40 @@
+body {
+	font-family: Courier;
+	font-size: 24px;
+}
+
+a {
+	color:red;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.left {
+	color: blue;
+	flex:0 0 50%;
+	height: 100vh;
+	overflow: scroll;
+}
+
+.left-content {
+	padding: 10px;
+}
+
+.right {
+	color: red;
+	background-color: yellow;
+	flex:0 0 50%;
+	height: 100vh;
+	overflow: scroll;	
+}
+
+.right-content {
+	padding: 10px;
+}
+
+.right img {
+	width: 100%;
+}

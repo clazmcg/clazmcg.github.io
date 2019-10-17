@@ -1,0 +1,30 @@
+body {
+	font-family: courier;
+	font-size: 24px;
+}
+
+a {
+	color:red;
+}
+
+.intro {
+	padding: 20px;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+
+.thumbnail {
+	flex: 0 0 33.33%;
+}
+
+.thumbnail-content {
+	padding: 10px;
+}
+
+.thumbnail img {
+	width:100%;
+}

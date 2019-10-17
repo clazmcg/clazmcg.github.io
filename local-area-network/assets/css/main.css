@@ -1,0 +1,154 @@
+body {
+	font-family: helvetica;
+	font-size: 24px;
+	background-color: blue;
+}
+
+a {
+	color:red;
+}
+
+/*header*/
+
+.header {
+  padding: 20px;
+  text-align: left;
+  background: blue;
+  font-size: 50px;
+  border: 1px solid magenta;
+  color: blue;
+  -webkit-text-stroke: 2px magenta;
+}
+
+/*end of header*/
+
+/*layout*/
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.left {
+	color: magenta;
+	flex:0 0 50%;
+	height: 100vh;
+	overflow: scroll;
+}
+
+.left-content {
+	background-color: blue;
+	color: magenta;
+}
+
+.right {
+	color: red;
+	background-color: blue;
+	flex:0 0 50%;
+	height: 100vh;
+	overflow: scroll;	
+}
+
+.right-content {
+	padding: 10px;
+	background-color: blue;
+}
+
+.right img {
+	width: 100%;
+}
+/*end of layout*/
+
+
+
+/*Festival Grid*/
+
+.months-header {
+  padding: 10px;
+  color: magenta;
+  font-size: 20px;
+  border: 1px solid magenta;
+  text-align: center;
+  cursor: pointer;
+}
+
+.months {
+	
+}
+
+.intro {
+	padding: 20px;
+}
+
+.festival-grid {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	border: 1px solid magenta;
+}
+
+.thumbnail {
+	flex: 0 50%;
+}
+
+.thumbnail-content {
+	padding: 10px;
+	color: magenta;
+}
+
+.thumbnail img {
+	width:100%;
+	border: 1px solid magenta;
+	padding:20px;
+}
+
+.thumbnail-text {
+	border: 1px solid magenta;
+	padding:10px;
+}
+
+
+.title {
+
+}
+
+.date {
+
+}
+
+.location {
+
+}
+
+.genre {
+
+}
+
+.style {
+
+}
+
+.price {
+
+}
+/*end of grid*/
+
+/*hover*/
+.thumbnail-item {
+	cursor:pointer;
+	height: auto;
+	margin: 0 auto;
+}
+.thumbnail-item:hover img.bw {
+	display:none;
+}
+
+.thumbnail-item:hover img.colour {
+	display:block;
+}
+
+img.colour {
+	display: none;
+}
+/*end of hover*/
+
+

@@ -1,0 +1,39 @@
+body {
+	font-family: courier;
+	font-size: 24px;
+}
+
+a {
+	color:red;
+}
+
+.sidebar {
+	position: fixed;
+	width:25%;
+	top:0px;
+	left:0px;
+	height:100vh;
+	font-size: 3vw;
+	text-transform: uppercase;
+}
+
+.sidebar-content {
+	padding: 10px;
+}
+
+.main {
+	width:75%;
+	margin-left: 25%;
+	background-color: yellow;
+}
+
+.main-content {
+	padding: 10px; 
+}
+
+.listing {
+	margin-bottom: 3vw;
+	font-size: 3vw;
+	text-transform: uppercase;
+}
+

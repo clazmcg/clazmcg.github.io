@@ -1,0 +1,36 @@
+body {
+	font-family: courier;
+	font-size: 32px;
+}
+
+a {
+	
+}
+
+.intro {
+	padding: 10px;
+}
+
+.table {
+	margin-top: 20px;
+}
+
+
+.row {
+	display: flex;
+	flex-wrap:wrap;
+	border-top: 2px solid black;
+	padding: 10px;
+}
+
+.title {
+	flex:0 0 50%;
+}
+
+.type {
+	flex:0 0 25%;
+}
+
+.date {
+	flex:0 0 25%;
+}

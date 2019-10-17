@@ -212,8 +212,12 @@ body
 /*Index Homepage*/
 
 .index-intro {
-	font-size:18px;
-	margin-bottom:25vh;
+	font-size:50px;
+	margin-bottom:3vh;
+  color:magenta;
+  padding-top:20px;
+  padding-left:10px;
+
 }
 
 .index-row {
@@ -222,7 +226,13 @@ body
 	padding:10px;
 	margin-bottom:5px;
 	margin-top:5px;
-	border-top: 2px solid white;
+	border-top: 2px solid lime;
+  font-size:20px;
+  color: magenta;
+}
+
+.index-row a {
+  color:magenta;
 }
 
 .index-layer {
