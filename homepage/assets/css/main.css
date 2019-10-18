@@ -6,11 +6,7 @@
   	animation: bgsize 12s ease-in-out infinite;
 }*/
 
-body, text {
-	font-family: Helvetica,Arial,sans-serif;
-	font-size: 100px;
-	color:white;
-	text-align:right;
+body {
 	background: red; /* not working, let's see some red */
     background: -moz-linear-gradient( top ,
         rgba(255, 0, 0, 1) 0%,
@@ -30,48 +26,74 @@ body, text {
         color-stop(100%, rgba(255, 0, 0, 1)));
 }
 
-
-/*body, html {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-@keyframes bgsize {
-  50% {
-    background-size: 50%;
-  }
-}
-*/
 a {
 	color:magenta;
 }
 
-/* When you first edit this file, you can delete everything below here. Remember you should use body to target all elements on the page first and then override them later  */
+.header {
+  font-family: Helvetica,sans-serif;
+  font-size: 60px;
+  color:white; 
+}
 
-/* EXAMPLE CODE PLEASE REMOVE */
+.header-text {
+  padding: 10px;
+  border: 5px solid magenta;
+  text-align: center;
+}
+
+/*IMAGES*/
 
 .gingers {
-	margin-left:50px;
-	margin-top:50px;
-	position:absolute;
+  cursor:pointer;
+}
+
+.gingers img {
+  margin-left:40vw;
+  margin-top:40vh;
+  border: 1px solid magenta;
+  padding:20px;
+  position:fixed;
+  width:30%;
+}
+
+.gingers a {
+  cursor:pointer;
 }
 
 .me {
-	margin-left:900px;
-	margin-top:200px;
-	position:absolute;
-	width:40%;
+  cursor:pointer;
+	}
+
+.me img {
+  margin-left:5vw;
+  margin-top:10vh;
+  width:30%;
+  border: 1px solid magenta;
+  padding:20px;
+  position:fixed;
+}
+
+.me a {
+  cursor:pointer;
 }
 
 .shrek {
-	margin-left:500px;
-	margin-top:300px;
-	position:absolute;
-	width:30%;
+  cursor: pointer;
 }
 
-img {
-	width:100%;
+.shrek img {
+  margin-left:60vw;
+  margin-top:5vh;
+  width:20%;
+  border: 1px solid magenta;
+  padding:20px;
+  position:fixed;
+
 }
 
+.shrek a {
+  cursor:pointer;
+}
+
+/*end of IMAGES*/

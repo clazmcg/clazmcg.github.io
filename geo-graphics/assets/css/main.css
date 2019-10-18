@@ -217,7 +217,10 @@ body
   color:magenta;
   padding-top:20px;
   padding-left:10px;
+}
 
+.index-intro a {
+  color:lime;
 }
 
 .index-row {
@@ -1019,9 +1022,13 @@ body {
   animation: bgpos 8s infinite linear;
 }
 
-.cloud-dots img{
+.cloud-dots img {
+  display:flex;
+  flex-wrap:wrap;
   width:50%;
   margin-left:25%;
+  margin-top:5%;
+  position:absolute;
 }
 
 @keyframes bgpos {
