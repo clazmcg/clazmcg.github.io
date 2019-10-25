@@ -5,8 +5,8 @@ $ (document).ready(function(){
 	// 	$(this).toggleClass('large');
 	// });
 
-	$('.months-header').click(function(){
-		$('.months-header').removeClass('active');
+	$('.months').click(function(){
+		$('.months').removeClass('active');
 		$(this).addClass('active');
 	})
 
