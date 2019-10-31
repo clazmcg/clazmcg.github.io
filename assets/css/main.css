@@ -36,13 +36,13 @@ a {
 /*scroll heading*/
 
 .left-header {
-  width:720px;
+  width:100vw;
   height:100px;
   text-align: left;
   padding:10px;
   background: blue;
   position:absolute;
-  margin-left:720px;
+  margin-left:50vw;
   font-size: 30px;
   border: 1px solid magenta;
   color: magenta;
@@ -51,14 +51,12 @@ a {
 
 .scroll1 {
   height: 100px;  
-  /*transform: rotate(-40deg);*/
   background-color:blue;
   color:blue;
   position: fixed;
-  width: 720px;
+  width: 100vw;
   height: 100px;
   margin-top:0px;
-  /*margin-left:-200px;*/
   line-height: 100px;
   text-align:left;
   font-size:80px;
@@ -69,32 +67,43 @@ a {
   flex-wrap:wrap;
   display:flex;
   -webkit-text-stroke: 3px lime;
-  border: 2px solid magenta;
+  border: 4px solid magenta;
 }
 
+.scroll2 {
+  height: 7vh;  
+  background-color:blue;
+  color:lime;
+  width: 50vw;
+  line-height: 50px;
+  font-size:20px;
+  /*font-style:italic;*/
+  /*font-weight:bold;*/
+  overflow:hidden;
+  pointer-events:none;
+  flex-wrap:wrap;
+  display:flex;
+/*  -webkit-text-stroke: 1px lime;*/
+  border: 4px solid magenta;
+}
 /*end of scroll*/
 
-/*search bar*/
+/*spotify*/
 
-.search {
-  padding: 10px;
-  color: magenta;
-  font-size: 20px;
-  text-align: center;
-  cursor: pointer;
+.spotify-grid {
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
 }
 
-.topnav input[type=text] {
-  float: right;
-  padding: 10px;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
-  color:lime;
-  border: 1px solid magenta;
-}
+.spotify-content {
+	border: 4px solid magenta;
+/*	flex: 0 50%;*/
+	padding:20px;
+	display: block;
+	width: 100vw;
 
-/*end of search bar*/
+}
 
 /*layout*/
 .grid {
@@ -116,7 +125,7 @@ a {
 }
 
 .right {
-	color: red;
+	color: magenta;
 	background-color: blue;
 	flex:0 0 50%;
 	height: 100vh;
@@ -124,7 +133,7 @@ a {
 }
 
 .right-content {
-	padding: 10px;
+	padding: px;
 	background-color: blue;
 }
 
@@ -141,7 +150,7 @@ a {
   padding: 10px;
   color: magenta;
   font-size: 20px;
-  border: 1px solid magenta;
+  border: 4px solid magenta;
   text-align: center;
   cursor: pointer;
 }
@@ -158,7 +167,7 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 10px;
-	border: 1px solid magenta;
+	border: 4px solid magenta;
 }
 
 .thumbnail {
@@ -172,13 +181,13 @@ a {
 
 .thumbnail img {
 	width:100%;
-	border: 1px solid magenta;
+	border: 4px solid magenta;
 	padding:20px;
 	display: block;
 }
 
 .thumbnail-text {
-	border: 1px solid magenta;
+	border: 4px solid magenta;
 	padding:10px;
 }
 
