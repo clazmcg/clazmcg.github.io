@@ -1,0 +1,204 @@
+body {
+	font-family: Helvetica,sans-serif;
+	font-size: 32px;
+	background:blue;
+}
+
+a {
+	color:yellow;
+	text-decoration: none;
+}
+
+.hover a {
+	color:yellow;
+}
+
+img {
+	width:100%;
+  display: block;
+}
+
+.popup-link {
+  color:red;
+  cursor: pointer;
+}
+
+.shape {
+  width: 250px;
+  position: fixed;
+  z-index: 3;
+  cursor: pointer;
+  display: none;
+}
+
+.s-6 {
+  top:10%;
+  left:40%;
+  margin:auto;
+  width:40%;
+}
+
+.s-2 {
+  bottom:10%;
+  left:60%; 
+  margin:auto;
+  width:20%;
+}
+
+.s-3 {
+  bottom:10%;
+  left:25%;
+  margin:auto;   
+}
+
+.show {
+  display: block;
+}
+
+
+.buy-content {
+  position:absolute;
+  margin-top:15%;
+  margin-left:10%;
+  text-align:left;
+  color:yellow;
+  font-size:30px;
+}
+
+.content {
+  position:fixed;
+  margin-top:15%;
+  margin-left:33%;
+  text-align:center;
+  color:yellow;
+  font-size:50px;
+  font-style:bold;
+}
+
+.content a:hover {
+  color:red;
+}
+
+.content .pages {
+  color:red;
+}
+
+.twopage .col {
+	height:100vh;
+	overflow:scroll;
+}
+
+.scroll1 {
+  height: 100px;  
+  transform: rotate(-20deg);
+  background-color:red;
+  position: absolute;
+  width: 1000px;
+  height: 100px;
+  margin-top:70px;
+  margin-left:-50px;
+  line-height: 100px;
+  text-align:right;
+  font-size:100px;
+  color:yellow;
+  font-style:italic;
+  font-weight:bold;
+  overflow:hidden;
+  pointer-events:none;
+}
+
+  .scroll2 {
+  height: 100px;  
+  transform: rotate(20deg);
+  background-color:red;
+  position: absolute;
+  width: 2000px;
+  height: 100px;
+  margin-top:70px;
+  margin-right:-50px;
+  line-height: 100px;
+  text-align:left;
+  font-size:100px;
+  color:yellow;
+  font-style:italic;
+  font-weight:bold;
+  overflow:hidden;
+  pointer-events:none;
+}
+
+.scroll3 {
+  height: 100px;  
+  transform: rotate(-20deg);
+  background-color:red;
+  position: fixed;
+  width: 2000px;
+  height: 100px;
+  margin-top:38%;
+  margin-bottom:10%;
+  margin-right:-100px;
+  line-height: 100px;
+  text-align:left;
+  font-size:100px;
+  color:yellow;
+  font-style:italic;
+  font-weight:bold;
+  overflow:hidden;
+  pointer-events:none;
+}
+
+.scroll4 {
+  height: 100px;  
+  transform: rotate(20deg);
+  background-color:red;
+  position: fixed;
+  width: 2000px;
+  height: 100px;
+  margin-top:50%;
+  margin-bottom:10%;
+  margin-left:-100px;
+  line-height: 100px;
+  text-align:left;
+  font-size:100px;
+  color:yellow;
+  font-style:italic;
+  font-weight:bold;
+  overflow:hidden;
+  pointer-events:none;
+}
+
+.links {
+    position:fixed;
+    right:20px;
+    font-size:30px;
+    text-align:right;
+    font-style:bold-italic;
+    font-family:helvetica;
+  }
+
+  .links a {
+    color:blue;
+  }
+
+  .links a:hover {
+    color:yellow;
+  }
+
+  .grid {
+    position:relative;
+    width:100%;
+    color:yellow;
+    overflow:hidden;
+    bottom:0;
+  }
+
+  .grid a {
+    float:left;
+    display:block;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+  }
+
+  .grid a:hover {
+    color:yellow;
+  }
